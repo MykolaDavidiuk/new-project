@@ -1,0 +1,10 @@
+@mixin fontSize($color : red,$size:10px) {
+  font-size: $size;
+  font-weight: 700;
+  font-family: fantasy,sans-serif;
+  text-decoration: underline;
+  color: $color;
+}
+@mixin m($mar...){
+  margin: $mar;
+}
